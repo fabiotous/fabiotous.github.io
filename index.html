@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exploring GitHub Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        pre {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        code {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <h1>Creating a Simple Web Page Using GitHub Pages</h1>
+
+    <h2>How I Set Up GitHub Pages</h2>
+    <p>To set up GitHub Pages, I followed these steps:</p>
+    <ol>
+        <li><strong>Created a new repository named <code>fabiotous.github.io</code>:</strong>
+            <p>This naming convention is required for GitHub to recognize it as a user site and publish it at <code>https://fabiotous.github.io/</code>.</p>
+        </li>
+        <li><strong>Cloned the repository locally:</strong>
+            <pre><code>git clone https://github.com/fabiotous/fabiotous.github.io.git</code></pre>
+        </li>
+        <li><strong>Created an <code>index.html</code> file:</strong>
+            <p>This file contains the content of the web page.</p>
+        </li>
+        <li><strong>Pushed the changes to GitHub:</strong>
+            <pre><code>git add .
+git commit -m "Initial commit"
+git push origin main</code></pre>
+        </li>
+    </ol>
+
+    <h2>How I Built the Page</h2>
+    <p>I wrote the HTML content directly in the <code>index.html</code> file. The page includes:</p>
+    <ul>
+        <li>An introduction to the project.</li>
+        <li>Instructions on how I set up GitHub Pages.</li>
+        <li>Details on how I built the page.</li>
+        <li>The difficulties encountered and how I solved them.</li>
+    </ul>
+
+    <h2>Difficulties Encountered and How I Solved Them</h2>
+    <p>During the process, I faced a few challenges:</p>
+    <ol>
+        <li><strong>Problem:</strong> <em>Site Not Displaying Immediately</em><br>
+            <strong>Solution:</strong> Realized that GitHub Pages can take a few minutes to publish the site after pushing changes. I waited for a few minutes and then refreshed the page.</li>
+        <li><strong>Problem:</strong> <em>Incorrect Repository Naming</em><br>
+            <strong>Solution:</strong> Initially, I named the repository incorrectly. To fix this, I renamed it to <code>fabiotous.github.io</code> to match GitHub Pages' requirement for user sites.</li>
+        <li><strong>Problem:</strong> <em>Styles Not Applying</em><br>
+            <strong>Solution:</strong> Ensured that the CSS styles were correctly placed within the <code>&lt;style&gt;</code> tags inside the <code>&lt;head&gt;</code> section of the HTML file.</li>
+    </ol>
+
+    <p>By addressing these issues, I successfully created and published the web page using GitHub Pages.</p>
+</body>
+</html>
